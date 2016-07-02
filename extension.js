@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "NoisYmenT";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -24,6 +24,7 @@
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
 
+/*
         // Example code for a bot command:
         bot.commands.baconCommand = {
           command: 'bacon',  // The command to be called. With the standard command literal this would be: !bacon
@@ -37,6 +38,7 @@
             }
           }
         };
+*/
 
         // Load the chat package again to account for any changes
         bot.loadChat();
@@ -46,10 +48,10 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "TrapCity Bot",
       language: "english",
-      chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
-      scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+      chatLink: "https://rawgit.com/NoisYmenT/source/sourcemaster/lang/en.json",
+      scriptLink: "https://rawgit.com/NoisYmenT/source/sourcemaster/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
@@ -59,10 +61,10 @@
       smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 120,
-      afkRemoval: true,
+      afkRemoval: false,
       maximumDc: 60,
       bouncerPlus: true,
-      blacklistEnabled: true,
+      blacklistEnabled: false,
       lockdownEnabled: false,
       lockGuard: false,
       maximumLocktime: 10,
@@ -70,7 +72,7 @@
       maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
-      historySkip: false,
+      historySkip: true,
       timeGuard: true,
       maximumSongLength: 10,
       autodisable: true,
@@ -91,27 +93,27 @@
       motdEnabled: false,
       motdInterval: 5,
       motd: "Temporary Message of the Day",
-      filterChat: true,
+      filterChat: false,
       etaRestriction: false,
       welcome: true,
       opLink: null,
       rulesLink: null,
       themeLink: null,
-      fbLink: null,
-      youtubeLink: null,
+      fbLink: "https://facebook.com/ravenueofficial",
+      youtubeLink: "https://youtube.com/ravenue",
       website: null,
       intervalMessages: [],
       messageInterval: 5,
-      songstats: true,
+      songstats: false,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/NoisYmenT/custom/custommaster/blacklists/NSFWlist.json",
+        OP: "https://rawgit.com/NoisYmenT/custom/custommaster/blacklists/OPlist.json",
+        BANNED: "https://rawgit.com/NoisYmenT/custom/custommaster/blacklists/BANNEDlist.json"
       }
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/basicBot/source/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/NoisYmenT/source/sourcemaster/basicBot.js", extend);
 
 }).call(this);
