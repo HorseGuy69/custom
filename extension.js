@@ -48,7 +48,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "TrapCity Bot",
+      botName: "Molly Bot",
       language: "english",
       chatLink: "https://rawgit.com/NoisYmenT/custom/custommaster/lang/en.json",
       scriptLink: "https://rawgit.com/NoisYmenT/source/sourcemaster/basicBot.js",
@@ -99,8 +99,8 @@
       opLink: null,
       rulesLink: null,
       themeLink: null,
-      fbLink: "https://facebook.com/ravenueofficial",
-      youtubeLink: "https://youtube.com/ravenue",
+      fbLink: null,
+      youtubeLink: null,
       website: null,
       intervalMessages: [],
       messageInterval: 5,
