@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "NoisYmenT";
+    var fork = "HorseGuy69";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -62,10 +62,10 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "Lit Bot",
+      botName: "F U  C C B O T",
       language: "english",
-      chatLink: "https://rawgit.com/NoisYmenT/custom/custommaster/lang/en.json",
-      scriptLink: "https://rawgit.com/NoisYmenT/source/sourcemaster/basicBot.js",
+      chatLink: "https://rawgit.com/HorseGuy69/custom/custommaster/lang/en.json",
+      scriptLink: "https://rawgit.com/HorseGuy69/source/sourcemaster/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
@@ -121,13 +121,13 @@
       songstats: false,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/NoisYmenT/custom/custommaster/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/NoisYmenT/custom/custommaster/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/NoisYmenT/custom/custommaster/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/HorseGuy69/custom/custommaster/blacklists/NSFWlist.json",
+        OP: "https://rawgit.com/HorseGuy69/custom/custommaster/blacklists/OPlist.json",
+        BANNED: "https://rawgit.com/HorseGuy69/custom/custommaster/blacklists/BANNEDlist.json"
       }
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/NoisYmenT/source/sourcemaster/basicBot.js", extend);
+    $.getScript("https://rawgit.com/HorseGuy69/source/sourcemaster/basicBot.js", extend);
 
 }).call(this);
