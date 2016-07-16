@@ -72,7 +72,7 @@
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
       startupEmoji: false, // true or false
-      autowoot: true,
+      autowoot: false,
       autoskip: true,
       smartSkip: true,
       cmdDeletion: true,
@@ -88,8 +88,8 @@
       maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
-      historySkip: true,
-      timeGuard: true,
+      historySkip: false,
+      timeGuard: false,
       maximumSongLength: 10,
       autodisable: true,
       commandCooldown: 30,
