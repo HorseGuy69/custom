@@ -41,6 +41,7 @@
 */
 
        // Example code for a bot command:
+       /*
         bot.commands.rcsCommand = {
           command: 'rcs',  // The command to be called. With the standard command literal this would be: !bacon
           rank: 'user', // Minimum user permission to use the command
@@ -53,6 +54,7 @@
             }
           }
         };
+*/
 
         // Load the chat package again to account for any changes
         bot.loadChat();
